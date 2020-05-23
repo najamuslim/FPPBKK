@@ -32,7 +32,7 @@ class Transaksi extends \Phalcon\Mvc\Model
      */
     public function initialize()
     {
-        $this->setSchema("bantuan_pandemi");
+        $this->setSchema("eas_phalcon");
         $this->setSource("transaksi");
     }
 

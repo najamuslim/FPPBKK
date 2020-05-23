@@ -13,7 +13,7 @@ return new \Phalcon\Config([
         'host'        => 'localhost',
         'username'    => 'root',
         'password'    => '',
-        'dbname'      => 'bantuan_pandemi',
+        'dbname'      => 'eas_phalcon',
         'charset'     => 'utf8',
     ],
     'application' => [

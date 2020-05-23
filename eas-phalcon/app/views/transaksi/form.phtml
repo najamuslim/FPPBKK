@@ -1,14 +1,17 @@
+<div style="margin-top:20px;margin-bottom:25px;">
 <h2>Form Bantuan Pandemi</h2>
+</div>
 
 <?php echo $this->tag->form("transaksi/createTransaksiBantuan");?>
 
-    <div class="form-group">
+    <div class="form-group"style="margin-top:30px;margin-bottom:25px;">
         <label for="nama">Nama Pemberi Bantuan</label>
         <?php echo $this->tag->textField(["nama", "class" => "form-control", "placeholder" => "Nama"]); ?>
     </div>
 
+    <div style="margin-top:30px;margin-bottom:25px;">
     <h4>Jenis Bantuan</h4>
-
+    </div>
     <div class="form-group">
         <label for="uang">Uang Tunai</label>
         <?php echo $this->tag->textField(["uang", "class" => "form-control", "placeholder" => "Nominal"]); ?>

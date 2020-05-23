@@ -1,37 +1,37 @@
-<div class="page-header">
+<div class="page-header"style="margin-top:50px;margin-bottom:25px;">
     <h1>List Bantuan Bantuan Pandemi!</h1>
 </div>
 
-<table class="table">
+<table class="table"style="margin-bottom:50px;">
     <thead>
         <tr>
             <td>
                 <?php
                 echo $this->tag->linkTo ([
-                    "transaksi/uang","class" => "btn btn-primary",
+                    "transaksi/uang","class" => "btn btn-info",
                     "Uang"]
                 );?>
                 <?php
                 echo $this->tag->linkTo ([
-                    "transaksi/bahanmakanan","class" => "btn btn-primary",
+                    "transaksi/bahanmakanan","class" => "btn btn-info",
                     "Bahan Makanan"]
                 );?>
                 <?php
                 echo $this->tag->linkTo ([
-                    "transaksi/obat","class" => "btn btn-primary",
+                    "transaksi/obat","class" => "btn btn-info",
                     "Obat"]
                 );?>
                 <?php
                 echo $this->tag->linkTo ([
-                    "transaksi/dll","class" => "btn btn-primary",
+                    "transaksi/dll","class" => "btn btn-info",
                     "Dll"]
                 );?>
             </td>
             <td>
                 <?php
                 echo $this->tag->linkTo ([
-                    "transaksi/form","class" => "btn btn-secondary",
-                    "Beri Bantuan!"]
+                    "transaksi/form","class" => "btn btn-primary",
+                    "Buat Bantuan"]
                 );?>
             </td>
         </tr>

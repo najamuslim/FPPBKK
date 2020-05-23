@@ -29,8 +29,8 @@ class TransaksiController extends ControllerBase
             $transaksi2 = new Transaksi();
             $transaksi2->nama = $this->request->getPost("nama");
             $transaksi2->id_kategori = "2";
-            $transaksi1->bantuan = $this->request->getPost("bahanmakanan");
-            $transaksi1->save();
+            $transaksi2->bantuan = $this->request->getPost("bahanmakanan");
+            $transaksi2->save();
         }
 
         if($this->request->getPost("obat")){
