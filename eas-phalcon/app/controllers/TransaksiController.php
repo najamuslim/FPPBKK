@@ -14,7 +14,7 @@ class TransaksiController extends ControllerBase
 
     }
 
-    public function createbantuanAction()
+    public function createTransaksiBantuanAction()
     {
 
         if($this->request->getPost("uang")){
